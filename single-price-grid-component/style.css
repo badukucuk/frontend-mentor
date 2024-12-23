@@ -1,0 +1,139 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    min-height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-family: Karla;
+    background-color: rgb(230, 239, 245);
+    padding: 12px;
+}
+
+.container {
+    max-width: 635px;
+    background-color: white;
+    border-radius: 8px;
+}
+
+.top-section {
+    padding: 32px;
+}
+
+h1 {
+    font-size: 24px;
+    font-weight: bold;
+    color: rgb(42, 179, 177);
+}
+
+.top-section h2 {
+    font-size: 18px;
+    font-weight: bold;
+    color: rgb(192, 223, 51);
+    margin: 18px 0 12px 0;
+}
+
+.top-section p {
+    font-size: 16px;
+    line-height: 26px;
+    color: rgb(154, 167, 190);
+}
+
+.bottom-section {
+    display: flex;
+}
+
+.left-section {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    width: 50%;
+    background-color: rgb(42, 179, 177);
+    border-bottom-left-radius: 8px;
+    padding: 32px;
+}
+
+.left-section h2, .right-section h2 {
+    font-size: 18px;
+    font-weight: bold;
+    color: white;
+    margin-bottom: 12px;
+}
+
+.price-and-billing {
+    display: flex;
+    align-items: center;
+}
+
+.price {
+    font-size: 32px;
+    font-weight: bold;
+    color: white;
+    margin-right: 12px;
+}
+
+.billing {
+    font-size: 16px;
+    color: white;
+    opacity: 50%;
+}
+
+.left-section p {
+    font-size: 16px;
+    color: white;
+    margin: 8px 0 12px 0;
+}
+
+button {
+    width: 100%;
+    font-family: Karla;
+    font-size: 16px;
+    font-weight: 500;
+    color: white;
+    background-color: rgb(192, 223, 51);
+    border: none;
+    border-radius: 5px;
+    padding: 12px 0;
+    box-shadow: 0 4px 4px rgba(0, 0, 0, 25%);
+}
+
+.right-section {
+    width: 50%;
+    background-color: rgba(42, 179, 177, 85%);
+    border-bottom-right-radius: 8px;
+    padding: 32px;
+}
+
+ul {
+    list-style-type: none;
+}
+
+li {
+    font-size: 14px;
+    color: white;
+    opacity: 75%;
+}
+
+li:not(:last-child) {
+    margin-bottom: 4px;
+}
+
+@media screen and (max-width: 425px) {
+    .bottom-section {
+        flex-direction: column;
+    }
+
+    .left-section {
+        width: unset;
+        border-radius: 0;
+    }
+
+    .right-section {
+        width: unset;
+        border-bottom-left-radius: 8px;
+    }
+}
