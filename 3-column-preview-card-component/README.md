@@ -23,8 +23,8 @@ Users should be able to:
 
 ![](../screenshots/3-column-preview-card-component.jpeg)
 
-- Solution URL: [Add solution URL here](https://your-solution-url.com)
-- Live Site URL: [Add live site URL here](https://your-live-site-url.com)
+- [Solution URL](https://www.frontendmentor.io/solutions/3-column-preview-card-component-yASnaKeup0)
+- [Live Site URL](https://badukucuk.github.io/frontend-mentor/3-column-preview-card-component/)
 
 ## Author
 
