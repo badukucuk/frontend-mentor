@@ -1,0 +1,46 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    min-height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-family: outfit;
+    background-color: rgb(213, 225, 239);
+    padding: 24px;
+}
+
+main {
+    max-width: 20rem;
+    text-align: center;
+    background-color: white;
+    border-radius: 20px;
+    padding: 16px 16px 40px 16px;
+}
+
+img {
+    width: 100%;
+    border-radius: 10px;
+    margin-bottom: 24px;
+}
+
+h1 {
+    font-size: 1.375em;
+    font-weight: 700;
+    color: rgb(31, 49, 79);
+    line-height: 120%;
+    padding: 0 16px 16px 16px;
+}
+
+p {
+    font-size: 0.938em;
+    font-weight: 400;
+    color: rgb(104, 119, 141);
+    line-height: 140%;
+    letter-spacing: 0.2px;
+    padding: 0 16px 0 16px;
+}
