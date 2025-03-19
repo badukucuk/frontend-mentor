@@ -26,7 +26,7 @@ Users should be able to:
 ### Links
 
 - [Solution URL](https://www.frontendmentor.io/solutions/huddle-landing-page-with-a-single-introductory-section-jSublV07s8)
-- [Live Site URL](https://badukucuk.github.io/huddle-landing-page-with-single-introductory-section)
+- [Live Site URL](https://badukucuk.github.io/frontend-mentor/huddle-landing-page-with-single-introductory-section/)
 
 ## Author
 
